@@ -10,7 +10,7 @@
         html, body {
             overflow-x: hidden; /* 防止水平滚动条 */
         }
-        #TT{margin: 10px; height: 26vw; background-color: #FFFFFF; border-radius: 7px;}
+        #TT{margin: 10px; height: 25vh; background-color: #FFFFFF; border-radius: 7px;}
         
         /* 卡片基础样式 */
         .move{
@@ -144,6 +144,16 @@
             card.style.animationDelay = (index * 0.2) + 's';
         });
     });
+
+    // var move = document.getElementsByClassName('move')
+    // function suomove(){
+    //     if (document.documentElement.clientWidth <= 400){
+    //         for (var ev in move){
+    //             ev.style.weight = '75vw';
+    //             ev.style.height = '20vw'
+    //         }
+    //     }
+    // }
     </script>
 
     <div class="cards-container">
